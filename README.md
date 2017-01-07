@@ -40,3 +40,14 @@ scripts:{
 },
 "pre-commit":["test"]
 ```
+
+
+##5. Common ESLint Use Cases
+###2 Linting Client and Server JavaScript
+by default eslint use .eslintrc.json file in root folder, we can create another file in public folder
+```
+/public/js/.eslintrc.json
+```
+
+
+
