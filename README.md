@@ -8,19 +8,20 @@
   },
   extends: eslint:recommended,
   rules:{
-    indent:[
+    "no-console":"error",
+    "indent":[
       error,
       4
     ],
-    linebreak-style:[
+    "linebreak-style":[
       error,
       unix
     ],
-    quotes:[
+    "quotes":[
       error,
       single
     ],
-    semi:[
+    "semi":[
       error,
       always
     ]
