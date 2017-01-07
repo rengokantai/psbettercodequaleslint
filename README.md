@@ -28,3 +28,15 @@
   }
 }
 ```
+
+###5 Git Hooks
+```
+npm install --save-dev pre-commit
+```
+in package.json
+```
+scripts:{
+  test: eslint public/js && mocha test
+},
+"pre-commit":["test"]
+```
