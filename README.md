@@ -49,5 +49,22 @@ by default eslint use .eslintrc.json file in root folder, we can create another 
 /public/js/.eslintrc.json
 ```
 
+###3 Linting ES6/7 JavaScript
+specify public folder and extension name
+```
+eslint --ext .es6 public
+```
+client side rule
+```
+{
+  "env":{
+    "browser":true,
+    "es6":true
+  },
+  "rules":{
+    "no-console":"error"
+  }
+}
+```
 
 
